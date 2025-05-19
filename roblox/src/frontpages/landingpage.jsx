@@ -1,9 +1,9 @@
 import React from 'react';
 import './landingpage.css'; // Import the CSS file
 import robloxPfp from '../assets/robloxpfp.jpg';
-import robloxMap1 from '../assets/robloxmap/robloxchuff4.png';
-import robloxmap2 from '../assets/robloxmap/robloxchuff.png'
-import robloxmap3 from '../assets/robloxmap/robloxchuff5.png'
+import robloxMap1 from '../assets/robloxmap/robloxeric1.jpg';
+import robloxmap2 from '../assets/robloxmap/robloxeric2.jpg';
+import robloxmap3 from '../assets/robloxmap/robloxeric3.jpg'
 import robloxmap4 from '../assets/robloxmap3.jpg'
 function Landingpage() {
   return (
@@ -23,7 +23,7 @@ function Landingpage() {
             <p>My goal is to combine my IT expertise with my passion for game development to create engaging and innovative Roblox experiences.</p>
           </div>
           <div className="about-image">
-            <img src={robloxMap1} alt="My Roblox Creation" className="about-pic" />
+            <img src={robloxmap4} alt="My Roblox Creation" className="about-pic" />
           </div>
         </div>
       </div>
@@ -32,12 +32,12 @@ function Landingpage() {
         <h2>My Projects</h2>
         <div className="project-grid">
           <div className="project-card">
-            <img src={robloxmap2} alt="Project 1" className="project-pic" />
+            <img src={robloxMap1} alt="Project 1" className="project-pic" />
             <h3>Adventure World</h3>
             <p>An immersive open-world adventure game with custom mechanics.</p>
           </div>
           <div className="project-card">
-            <img src={robloxmap4} alt="Project 2" className="project-pic" />
+            <img src={robloxmap2} alt="Project 2" className="project-pic" />
             <h3>Survival Island</h3>
             <p>A challenging survival game with unique resource management.</p>
           </div>
