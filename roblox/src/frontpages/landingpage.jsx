@@ -55,17 +55,17 @@ function Landingpage() {
           <div className="service">
             <i className="service-icon">🎮</i>
             <h3>Game Development</h3>
-            <p>Custom Roblox games designed from concept to completion.</p>
+            <p>Custom Roblox games designed from concept to completion!</p>
           </div>
           <div className="service">
             <i className="service-icon">🏗️</i>
             <h3>Level Design</h3>
-            <p>Creative and engaging environments for your gaming experience.</p>
+            <p>Creative and engaging environments for your gaming experience!</p>
           </div>
           <div className="service">
             <i className="service-icon">💻</i>
             <h3>Scripting</h3>
-            <p>Efficient and clean code to bring your game mechanics to life.</p>
+            <p>Efficient and clean code to bring your game mechanics to life!</p>
           </div>
         </div>
       </div>
